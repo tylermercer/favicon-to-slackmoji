@@ -97,6 +97,10 @@ const IndexPage = () => {
       <button style={ctaStyles} disabled={!img} onClick={download}>
         Download{nameProcessed? ` ${nameProcessed}.png` : ''}
       </button>
+      <p>
+        Built by <a href="https://github.com/tylermercer">Tyler Mercer</a> &middot;{' '}
+        <a href="https://github.com/tylermercer/favicon-to-slackmoji">Source</a>
+      </p>
     </main>
   )
 }
